@@ -1,0 +1,216 @@
+.image-text p {
+  color: #fff;
+}
+
+
+
+.nav image {
+    height: 10px; /* Ajuste la taille selon ton besoin */
+    padding: 5px 15px; /* Réduit le padding */
+    width: 40%; 
+    filter: drop-shadow(0px 4px 6px rgba(155, 139, 139, 0.2)); /* Effet d’ombre */
+}
+
+.logo {
+    height: 50px; /* Ajuste la taille selon ton besoin */
+    padding: 5px 15px; /* Réduit le padding */
+    width: 40%; 
+    filter: drop-shadow(0px 4px 6px rgba(155, 139, 139, 0.2)); /* Effet d’ombre */
+}
+
+.chat1 {
+  text-align: center; /* Centre l'image */
+  margin-top: 20px; /* Espace entre la navbar et l'image */
+}
+
+.chat1 {
+  width: 100%; /* Ajuste à la largeur de l'écran */
+  max-height: 500px; /* Limite la hauteur */
+  object-fit: cover; /* Recadre bien l'image */
+}
+
+
+
+
+/* login start */
+body {
+  background: #efeff1 !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+  .checkbox {
+    font-weight: normal;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+.header{
+  width: 100%;
+  height: 150px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* card */
+.animal-card{
+  overflow: hidden;
+  border-radius: 5px;
+  width: 224px;
+  height: 416px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+-webkit-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+}
+  /* css mte3 majmou3t cards */
+.card-animal{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 100px;
+}
+
+.h1name{
+  color: rgb(0, 0, 0);
+  font-size:medium;
+  margin-bottom: 10px;
+}
+.animal-desc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.animal-sec{
+  display: flex;
+  justify-content: end;
+  padding-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 224px;
+  height: 180px;
+  background: #ffffff;
+}
+.error-message{
+  color: red;
+}
+.modalinput input{
+  margin: 0px !important;
+  height: 30px;
+}
+.Group  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 880px;
+  background: white;
+  border-radius:0 0 10px 10px;
+  padding-bottom: 50px;
+
+}
+.Group div {
+width: 350px;
+height: 120px;
+background: #ffff;
+border-radius: 10px;
+margin: 20px 10px;
+display: flex;
+flex-direction: column;
+padding-left: 10px;
+padding-top: 10px;
+-webkit-box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.58);
+
+}
+
+.empty-favorites-message {
+  text-align: center;
+  font-size: 18px;
+  color: #555 !important;
+  margin-top: 20px;
+}
+.delete-button{
+  margin: 5px;
+  background: red;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.info-button {
+  margin: 5px;
+  background: #f56a00;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.favorites-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px;
+}
+.favorite-item{
+  width: 200px;
+  height: 266px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.58);
+}
+.favorite-item img{
+  width: 100%;
+  height: 100%;
+  border-radius:  10px 10px 0px 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* ولا اختار الوزن اللي تحب */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200;
+}
+
+.p-calendar-w-btn-right input{
+  margin: 0px !important;
+}
